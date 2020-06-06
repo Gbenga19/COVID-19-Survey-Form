@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COVID-19 Survey Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="container">
+        <img src="https://images.app.goo.gl/A6kWrNhBCZ668XWA8" alt="covid image"/>
+    <main>
+        <header>
+    <h1 id="title">COVID-19 SURVEY FORM</h1>
+    <p id="description"><i>Coronavirus disease (COVID-19) is an infectious disease caused by a newly
+         discovered coronavirus. Thank you for taking your time to fill this form.</i>
+    </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/>
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="name">Email</label>
+                <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Phone Number</label>
+                <input type="tel" name="phonenumber" id="tel" class="form-control" placeholder="Phone Number" required/>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age</label>
+                <input type="number" name="age" id="number" min="8" max="99"class="form-control" placeholder="Age"/>
+            </div>
+            <div class="form-group">
+                <label id="gender-label" for="name">What is your gender</label>
+               <select id="dropdown" name="gender" class="form-group" required>
+                   <option disabled selected value>Select Gender</option>
+                   <option value="male">Male</option>
+                   <option value="female">Female</option>
+                   <option value="preferNo">I prefer not to say</option>
+               </select>
+            </div>
+               <div class="form-group">
+                <p>Any other information about you? </p>
+                <textarea id="moreinfo" class="input-textarea" name="moreinfo" placeholder="Tell us more about you here..."></textarea>
+            </div>
+            <div class="form-group">
+                <p>Have you heard of the Corona virus (COVID-19) outbreak?</p>
+                <label>
+                    <input name="outbreak" value="yes" type="radio" class="input-radio">Yes</label>
+                    <label>
+                        <input name="outbreak" value="no" type="radio" class="input-radio"/>No</label>
+                        <label>
+                            <input name="outbreak" value="maybe" type="radio" class="input-radio"/>Not Sure</label>    
+            </div>
+            <div class="form-group">
+                <p>Tick signs and symptoms of COVID-19</p>
+                <label>
+                    <input name="any" value="signs" type="checkbox" class="input-checkbox">Fever</label>
+                    <label>
+                        <input name="any" value="signs" type="checkbox" class="input-checkbox">Dry cough</label>
+                        <label>
+                            <input name="any" value="signs" type="checkbox" class="input-checkbox">Tiredness</label>
+                            <label>
+                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Shortness of breath
+                            </label>
+                            <label>
+                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Red eye
+                            </label>
+                            <label>
+                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Stomach pain
+                            </label>
+                            <label>
+                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Red eye
+                            </label>
+                            <label>
+                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Chest pain
+                            </label> 
+                        </div>
+                        <div class="form-group">
+                            <label id="highest" for="cases">Which country has the highest number of cases</label>
+                           <select id="dropdown" name="highest" class="form-group" required>
+                               <option disabled selected value>Select Country</option>
+                               <option value="male">China</option>
+                               <option value="female">USA</option>
+                               <option value="preferNo">UK</option>
+                               <option value="preferNo">Ghana</option>
+                               <option value="preferNo">Nigeria</option>
+                               <option value="preferNo">Togo</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                            <p>What can be done to eradicate this COVID-19 disease? </p>
+                            <textarea id="moreinfo" class="input-textarea" name="moreinfo" placeholder="Enter your suggestion here..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" id="submit" class="submit-button">SUBMIT</button>
+                        </div>
+        </form>
+
+
+
+    </main>
+    </div>
+</body>
+</html>
