@@ -46,8 +46,11 @@ form{
     display: block;
     padding: 8px;
 }
+select{
+    margin: 5px; 
+}
 label{
-    display: inline-block;
+    display: block;
     margin: 5px; 
     font-size: inherit;
 }
