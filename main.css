@@ -47,13 +47,14 @@ form{
     padding: 8px;
 }
 select{
-    margin: 5px; 
+    margin: 5px;
+    width: 100%;
 }
 label{
-    display: block;
+    display: flex;
     margin: 5px; 
     font-size: inherit;
-    height: auto;
+    
 }
 input{
     margin: 5px;
