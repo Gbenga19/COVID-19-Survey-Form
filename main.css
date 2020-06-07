@@ -47,13 +47,14 @@ form{
     padding: 8px;
 }
 select{
-    margin: 5px;
+    
     width: 100%;
 }
 label{
     display: flex;
     margin: 5px; 
-    font-size: inherit;
+    position: relative; 
+    bottom: 3px;
     
 }
 input{
