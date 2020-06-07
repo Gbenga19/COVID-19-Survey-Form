@@ -53,6 +53,7 @@ label{
     display: block;
     margin: 5px; 
     font-size: inherit;
+    height: auto;
 }
 input{
     margin: 5px;
@@ -77,7 +78,7 @@ textarea{
    min-width: 1.5rem;
    width: auto;
    height: auto;
-   padding: 5px;
+   padding: 8px;
    margin: 5px;
    
    
