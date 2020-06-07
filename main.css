@@ -54,7 +54,7 @@ label{
     display: flex;
     margin: 5px; 
     position: relative; 
-    bottom: 3px;
+    bottom: -3px;
     
 }
 input{
@@ -81,7 +81,7 @@ textarea{
    width: auto;
    height: auto;
    padding: 8px;
-   margin: 5px;
+   margin-right: 10px;
    
    
 }
