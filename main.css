@@ -13,7 +13,7 @@ body{
     font-family: sans-serif;
     line-height: 1.5;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 15px;
     text-align: justify;
     display: block;
     box-sizing: border-box;
@@ -31,7 +31,7 @@ h1{
     line-height: 1.3;
 }
 p{
-font-size: px;
+font-size: 15px;
 margin-top: 0;
 margin-bottom: 0.7rem;
 }
@@ -80,7 +80,9 @@ textarea{
     resize: vertical;
     margin: 5px;
     padding-left: 7px;
-}
+    font-size: inherit;
+    align-items: center;
+} 
 .input-radio, .input-checkbox{
    display: inline-block;
    margin-right: 0.625rem;
