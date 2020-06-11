@@ -8,10 +8,11 @@
 }
 
 body{
+    position: fixed;
     background-color: brown;
     margin: 0;
     font-family: sans-serif;
-    line-height: 1.5;
+    line-height: 1.5; 
     font-weight: 500;
     font-size: 15px;
     text-align: justify;
