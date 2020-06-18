@@ -23,14 +23,14 @@
             </div>
             <div class="form-group">
                 <label id="email-label" for="name">Email</label>
-                <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
             </div>
             <div class="form-group">
                 <label id="number-label" for="number">Phone Number</label>
                 <input type="tel" name="phonenumber" id="tel" class="form-control" placeholder="Phone Number" required/>
             </div>
             <div class="form-group">
-                <label id="number-label" for="number">Age</label>
+                <label id="age-label" for="number">Age</label>
                 <input type="number" name="age" id="number" min="8" max="99"class="form-control" placeholder="Age"/>
             </div>
             <div class="form-group">
@@ -60,40 +60,40 @@
                 <label>
                     <input name="any" value="signs" type="checkbox" class="input-checkbox">Fever</label>
                     <label>
-                        <input name="any" value="signs" type="checkbox" class="input-checkbox">Dry cough</label>
+                        <input name="signs" value="dry_cough" type="checkbox" class="input-checkbox">Dry cough</label>
                         <label>
-                            <input name="any" value="signs" type="checkbox" class="input-checkbox">Tiredness</label>
+                            <input name="any" value="tiredness" type="checkbox" class="input-checkbox">Tiredness</label>
                             <label>
-                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Shortness of breath
+                                <input name="signs" value="shortness" type="checkbox" class="input-checkbox">Shortness of breath
                             </label>
                             <label>
-                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Red eye
+                                <input name="signs" value="red_eye" type="checkbox" class="input-checkbox">Red eye
                             </label>
                             <label>
-                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Stomach pain
+                                <input name="signs" value="stomach_pain" type="checkbox" class="input-checkbox">Stomach pain
                             </label>
                             <label>
-                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Red eye
+                                <input name="signs" value="weakness" type="checkbox" class="input-checkbox">Weakness
                             </label>
                             <label>
-                                <input name="any" value="signs" type="checkbox" class="input-checkbox">Chest pain
+                                <input name="signs" value="chest_pain" type="checkbox" class="input-checkbox">Chest pain
                             </label> 
                         </div>
                         <div class="form-group">
-                            <label id="highest" for="cases">Which country has the highest number of cases</label>
-                           <select id="dropdown" name="highest" class="form-group" required>
+                            <label id="highesCase" for="cases">Which country has the highest number of cases</label>
+                           <select id="dropdown" name="highestCase" class="form-group" required>
                                <option disabled selected value>Select Country</option>
-                               <option value="male">China</option>
-                               <option value="female">USA</option>
-                               <option value="preferNo">UK</option>
-                               <option value="preferNo">Ghana</option>
-                               <option value="preferNo">Nigeria</option>
-                               <option value="preferNo">Togo</option>
+                               <option value="china">China</option>
+                               <option value="usa">USA</option>
+                               <option value="uk">UK</option>
+                               <option value="ghana">Ghana</option>
+                               <option value="Nigeria">Nigeria</option>
+                               <option value="Togo">Togo</option>
                            </select>
                         </div>
                         <div class="form-group">
                             <p>What can be done to eradicate this COVID-19 disease? </p>
-                            <textarea id="moreinfo" class="input-textarea" name="moreinfo" placeholder="Enter your suggestion here..."></textarea>
+                            <textarea id="cure" class="input-textarea" name="cure" placeholder="Enter your suggestion here..."></textarea>
                         </div>
                         <div class="form-group">
                             <button type="submit" id="submit" class="submit-button">SUBMIT</button>
